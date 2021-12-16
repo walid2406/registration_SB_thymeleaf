@@ -9,6 +9,11 @@ public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
+    public Role(String name) {
+        this.name = name;
+    }
+
     private String name;
 
     public long getId() {
