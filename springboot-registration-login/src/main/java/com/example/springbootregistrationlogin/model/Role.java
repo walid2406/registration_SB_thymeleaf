@@ -10,7 +10,12 @@ public class Role {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
+    public Role() {
+
+    }
+
     public Role(String name) {
+        super();
         this.name = name;
     }
 
