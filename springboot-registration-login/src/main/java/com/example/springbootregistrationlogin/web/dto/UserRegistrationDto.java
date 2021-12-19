@@ -1,6 +1,6 @@
 package com.example.springbootregistrationlogin.web.dto;
 
-import javax.persistence.Column;
+
 
 public class UserRegistrationDto {
 
@@ -15,6 +15,7 @@ public class UserRegistrationDto {
     }
 
     public UserRegistrationDto(String firstname, String lastName, String email, String password) {
+        super();
         this.firstname = firstname;
         this.lastName = lastName;
         this.email = email;

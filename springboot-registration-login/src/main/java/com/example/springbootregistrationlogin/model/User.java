@@ -32,7 +32,7 @@ public class User {
     public User() {
     }
 
-    public User(String firstname, String lastName, String email, String password, Collection<Role> roles) {
+    public User(String firstname, String lastName, String email, String password, Collection < Role > roles) {
         super();
         this.firstname = firstname;
         this.lastName = lastName;
