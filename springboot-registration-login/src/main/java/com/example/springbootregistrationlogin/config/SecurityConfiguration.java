@@ -56,6 +56,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .invalidateHttpSession(true)
                 .clearAuthentication(true)
                 .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+//                ici a lier avec les message du template dans la partie alert en cas de loggout
                 .logoutSuccessUrl("/login?logout")
                 .permitAll();
     }
